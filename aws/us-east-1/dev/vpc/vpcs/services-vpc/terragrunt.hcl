@@ -1,5 +1,5 @@
 terraform {
-  source = "git::git@github.com:terraform-aws-modules/terraform-aws-vpc.git"
+  source = "git::git@github.com:terraform-aws-modules/terraform-aws-vpc.git?ref=v2.64.0"
 }
 
 inputs = {

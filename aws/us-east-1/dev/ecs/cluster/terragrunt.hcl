@@ -1,7 +1,7 @@
 terraform {
-  # source = "git::git@github.com:suharshan/infra-modules.git//ecs/cluster?ref=v0.0.1"
-  source = "../../../../../../infra-modules/ecs/cluster"
+  source = "git::git@github.com:suharshan/infra-modules.git//ecs/cluster?ref=v0.0.2"
 }
+
 inputs = {
   cluster_name = "dev"
 }

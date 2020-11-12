@@ -1,6 +1,5 @@
 terraform {
-  # source = "git::git@github.com:suharshan/infra-modules.git//ecs/cluster?ref=v0.0.1"
-  source = "../../../../../../../infra-modules/ecs/service"
+  source = "git::git@github.com:suharshan/infra-modules.git//ecs/service?ref=v0.0.2"
 }
 
 dependency "cluster" {

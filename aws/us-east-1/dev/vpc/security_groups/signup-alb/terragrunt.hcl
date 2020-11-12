@@ -1,7 +1,5 @@
 terraform {
-  #source = "git::https://github.com/terraform-aws-modules/terraform-aws-security-group.git//aws/modules/https-443"
-  source = "../../../../../../../infra-modules/vpc/security_groups/http-80"
-  # source = "git::https://github.com/terraform-aws-modules/terraform-aws-security-group.git//aws/modules/https-443?ref=v3.16.0" 
+  source = "git::git@github.com:suharshan/infra-modules.git//vpc/security_groups/http-80?ref=v0.0.2"
 }
 
 dependency "vpc" {
